@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPTV Premium - A Melhor Experiência de Entretenimento</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1920x600');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 48px;
+        }
+        .hero p {
+            font-size: 24px;
+        }
+        .cta-button {
+            background-color: #ff4500;
+            border: none;
+            color: white;
+            padding: 15px 30px;
+            text-transform: uppercase;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+        }
+        .plans {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .plan {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 30%;
+        }
+        .plan h3 {
+            font-size: 24px;
+        }
+        .plan p {
+            font-size: 18px;
+        }
+        .testimonial {
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        .faq {
+            text-align: left;
+        }
+        .faq h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .faq p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        footer {
+            margin-top: 50px;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>IPTV Premium</h1>
+        </div>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Planos</a>
+            <a href="#">Canais</a>
+            <a href="#">Depoimentos</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Descubra o Prazer do Entretenimento Premium com Nosso IPTV Exclusivo!</h1>
+        <p>Ostente o luxo de ter todos os canais, filmes e séries que você ama, sem esforço.</p>
+        <button class="cta-button">Assine Agora e Viva o Melhor do Entretenimento</button>
+    </div>
+
+    <section class="section">
+        <h2>O Melhor do Entretenimento, Apenas para Você</h2>
+        <p>Com nosso IPTV, você terá acesso a canais premium, filmes e séries de sucesso, e esportes ao vivo.</p>
+        <img src="https://via.placeholder.com/800x400" alt="Conteúdo de Luxo">
+    </section>
+
+    <section class="section">
+        <h2>Conveniência Máxima, Sem Esforço</h2>
+        <p>Nosso serviço de IPTV foi projetado para oferecer a máxima conveniência: interface intuitiva, instalação simples, e acesso ilimitado.</p>
+        <img src="https://via.placeholder.com/800x400" alt="Facilidade de Uso">
+        <button class="cta-button">Experimente Agora Sem Compromisso</button>
+    </section>
+
+    <section class="section">
+        <h2>O Que Nossos Clientes Dizem</h2>
+        <div class="testimonial">"O melhor serviço de IPTV que já usei. Qualidade incrível e muito fácil de usar!" - João M.</div>
+        <div class="testimonial">"Tenho acesso a todos os canais e séries que adoro, sem nenhum esforço. Simplesmente perfeito!" - Maria S.</div>
+        <div class="testimonial">"Minha experiência de entretenimento foi transformada. Recomendo para todos!" - Carlos P.</div>
+    </section>
+
+    <section class="section plans">
+        <div class="plan">
+            <h3>Plano Básico</h3>
+            <p>Acesso a canais básicos e filmes selecionados.</p>
+            <p><strong>R$49,90/mês</strong></p>
+            <button class="cta-button">Assine Agora</button>
+        </div>
+        <div class="plan">
+            <h3>Plano Premium</h3>
+            <p>Todos os canais, filmes e séries, esportes ao vivo.</p>
+            <p><strong>R$79,90/mês</strong></p>
+            <button class="cta-button">Assine Agora</button>
+        </div>
+        <div class .plan">
+            <h3>Plano VIP</h3>
+            <p>Acesso completo + conteúdos exclusivos e suporte prioritário.</p>
+            <p><strong>R$99,90/mês</strong></p>
+            <button class="cta-button">Assine Agora</button>
+        </div>
+    </section>
+
+    <section class="section faq">
+        <h2>Perguntas Frequentes</h2>
+        <div>
+            <h3>Como faço para instalar o serviço de IPTV?</h3>
+            <p>Nossa instalação é simples e intuitiva. Basta seguir o guia de instalação que enviamos após a assinatura.</p>
+        </div>
+        <div>
+            <h3>Posso assistir em mais de um dispositivo?</h3>
+            <p>Sim, você pode acessar nosso serviço em vários dispositivos simultaneamente.</p>
+        </div>
+        <div>
+            <h3>Quais formas de pagamento vocês aceitam?</h3>
+            <p>Aceitamos cartões de crédito, débito e pagamentos via PayPal.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Contato: suporte@empresaiptv.com | (11) 1234-5678 | Rua Exemplo, 123, São Paulo, SP</p>
+        <p>Siga-nos: <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a></p>
+        <p><a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a> | <a href="#">Suporte</a></p>
+        <p>&copy; 2024 Empresa IPTV. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
